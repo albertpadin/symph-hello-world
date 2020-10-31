@@ -5,7 +5,7 @@ const app = express();
 app.get('/', (req, res) => {
   res
     .status(200)
-    .send('Hello, GDG!')
+    .send('<body style="background-color: yellow;">Hello, GDG!</body>')
     .end();
 });
 
